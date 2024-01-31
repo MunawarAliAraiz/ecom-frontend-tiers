@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 
 export const ShopContext = React.createContext('Default');
 // const apiUrl = "https://ecom-server-tiers.onrender.com/api/";
-const apiUrl = "http://localhost:4000/api/";
+// const apiUrl = "http://localhost:4000/api/";
+const apiUrl = "https://chartreuse-achieved-soprano.glitch.me/api/";
 const stripe_public_key = "pk_test_51LHLWaG5WyR6N5cNFAQIggnSkqUUvcDW8Bqrj2EXz5nJY7wUMSMIjrGhfZU74GB1NyPGc7qMoLMFgjR3ImzYAxRe00vSwcOOg9";
 
 const getDefaultCart = () => {
