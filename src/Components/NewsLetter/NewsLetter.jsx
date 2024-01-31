@@ -7,7 +7,7 @@ import bgimg3 from '../../Assets/bgimg3.webp'
 const NewsLetter = () => {
   return (
     <div style={{backgroundImage: `url(${bgimg3})`}} className='h-[80vh] bg-cover w-full flex flex-col items-center justify-end mx-auto rounded-md shadow-md shadow-gray-600/50'>
-        <div className='text-white w-[99%] mb-2 rounded-lg bg-black/90 py-10 px-10 md:px-36 gap-7'>
+        <div className='text-white w-full rounded-lg bg-gradient-to-b from-transparent to-black py-10 px-10 md:px-36 gap-7'>
           <h1 className='text-4xl md:text-6xl font-bold pt-16'>Get the latest updates and offers.</h1>
           <p className='text-xl'>Subscribe to our newsletter and stay updated.</p>
           <div className='w-4/5 flex flex-col gap-5 md:gap-0 lg:flex-row items-center justify-between'>

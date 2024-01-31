@@ -24,7 +24,7 @@ const Footer = () => {
     ]
 
   return (
-    <div className='font-poppins text-white mt-10 flex flex-col justify-center items-center gap-4 lg:gap-12 bg-gradient-to-b from-gray-700/20 to-black/5 rounded-t-lg pt-5 bg-grad shadow-lg shadow-gray-300 drop-shadow-md'>
+    <div className='font-poppins text-white mt-10 flex flex-col justify-center items-center gap-4 lg:gap-12 bg-gradient-to-b from-transparent to-black rounded-t-lg pt-5 bg-grad shadow-lg shadow-gray-300 drop-shadow-md'>
         {/* Logo */}
         <div className='flex items-center gap-3'>
             <img className='w-16 lg:w-24 ' src={footer_logo} alt="" />
